@@ -1,17 +1,16 @@
-//
-//  ChessApp.swift
-//  Chess
-//
-//  Created by Edouard Belhomme on 15/12/2025.
-//
-
 import SwiftUI
 
 @main
 struct ChessApp: App {
+    @StateObject private var appearanceManager = AppearanceManager()
+    @StateObject private var statsManager = StatsManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+            .environmentObject(appearanceManager)
+            .environmentObject(statsManager)
+            .preferredColorScheme(appearanceManager.appStyle.colorScheme)
         }
     }
 }
