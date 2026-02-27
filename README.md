@@ -4,14 +4,14 @@ A fully-featured chess game for iOS built with **SwiftUI** and **SceneKit**, fea
 
 ## 🚀 How to Launch the App
 
-1. **Prerequisites**: Ensure you have **Xcode 16** (or newer) installed on your macOS.
+1. **Prerequisites**: Ensure you have **Xcode 26** (or newer) installed on your macOS.
 2. **Clone the repository**:
    ```bash
    git clone git@github.com:EdouardBelhomme/Chess.git
    cd Chess
    ```
 3. **Open the Project**: Double-click on `Chess.xcodeproj` to open it in Xcode.
-4. **Select Simulator**: In the top bar of Xcode, select an iOS Simulator (e.g., **iPhone 17 Pro**).
+4. **Select Simulator**: In the top bar of Xcode, select an iOS Simulator (e.g., **iPhone 17 Pro** running **iOS 26**).
 5. **Run**: Click the Play button (▶️) or press `Cmd + R` to build and launch the app in the simulator.
 
 ---
